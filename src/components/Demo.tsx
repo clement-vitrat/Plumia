@@ -2,8 +2,15 @@
 
 import { useState, useEffect } from 'react';
 import { Play, Pause, Download, Clock } from 'lucide-react'; // Icônes utilisées dans l'interface
-
-export default function Demo() {
+type DemoProps = {
+  t: {
+    nav: { features: string; howItWorks: string; testimonials: string; pricing: string; getStarted: string };
+    hero: { badge: string; titleHighlight: string; titleEnd: string; description: string; downloadNow: string; watchDemo: string };
+    // ... autres propriétés ...
+    footer: object;
+  } 
+};
+export default function Demo({ t }: DemoProps) {
   // État pour savoir si la lecture automatique est active
   const [isPlaying, setIsPlaying] = useState(false);
   // État de l'étape actuelle de la démonstration

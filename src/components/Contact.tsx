@@ -11,7 +11,7 @@ import { useState } from 'react';
  *
  * @returns {JSX.Element} The rendered ContactSection component.
  */
-export default function ContactSection() {
+export default function ContactSection({t}: {t: any}) {
     // State to manage form data
     const [formData, setFormData] = useState({
         prenom: '',

@@ -8,7 +8,7 @@ type Feature = {
   description: string;
 };
 
-type Features = {
+type FeaturesS = {
   t: {
     features: {
       title: string;
@@ -26,7 +26,7 @@ const icons: React.ElementType[] = [
   Zap, Shield, Smartphone, Users, Globe, Lock, Lightbulb, BarChart2
 ];
 
-export default function Features({ t }: Features) {
+export default function Features({ t }: FeaturesS) {
   const features: Feature[] = t.features.items.map((item, index) => ({
     icon: icons[index % icons.length],
     ...item

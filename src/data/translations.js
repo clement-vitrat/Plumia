@@ -17,6 +17,8 @@ const translations = {
     },
     features: {
       title: "Fonctionnalités",
+        titleHighlight: "Incroyables",  // <- à ajouter
+
       description: "Tout ce dont vous avez besoin pour guider, soutenir et faire grandir les jeunes.",
       items: [
         {
@@ -95,6 +97,8 @@ const translations = {
           name: 'Plan Académique',
           description: 'Pour les grandes institutions',
           price: 'Sur devis',
+              monthly: "",  // <-- ajouter cette clé même si vide
+
           popular: false,
           color: 'from-gray-600 to-gray-800',
           features: [
@@ -189,6 +193,8 @@ const translations = {
     },
     features: {
       title: "Features",
+        titleHighlight: "Incroyables",  // <- à ajouter
+
       description: "Everything you need to guide, support, and help youth grow.",
       items: [
         {
@@ -267,6 +273,8 @@ const translations = {
           name: 'Academic Plan',
           description: 'For large institutions',
           price: 'Custom pricing',
+              monthly: "",  // <-- ajouter cette clé même si vide
+
           popular: false,
           color: 'from-gray-600 to-gray-800',
           features: [
@@ -361,6 +369,8 @@ const translations = {
     },
     features: {
       title: "Características",
+        titleHighlight: "Incroyables",  // <- à ajouter
+
       description: "Todo lo que necesitas para guiar, apoyar y hacer crecer a los jóvenes.",
       items: [
         {
@@ -439,6 +449,8 @@ const translations = {
           name: 'Plan Académico',
           description: 'Para grandes instituciones',
           price: 'A medida',
+              monthly: "",  // <-- ajouter cette clé même si vide
+
           popular: false,
           color: 'from-gray-600 to-gray-800',
           features: [
