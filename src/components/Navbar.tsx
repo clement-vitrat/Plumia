@@ -168,7 +168,7 @@ export default function NavBar({ currentLang, setCurrentLang, t }: NavProps) {
                 key={item.href}
                 href={item.href}
                 onClick={handleMenuClick}
-                className={`group flex items-center space-x-4 p-3 rounded-lg text-black hover:bg-[#a8c8ff]/60 transition-all duration-200 transform hover:scale-105`}
+                className={`group flex items-center space-x-4 p-2.5 rounded-lg text-black hover:bg-[#a8c8ff]/60 transition-all duration-200 transform hover:scale-105`}
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 <div className="w-10 h-10 bg-gradient-to-r from-[#a8c8ff] to-white rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -216,7 +216,7 @@ export default function NavBar({ currentLang, setCurrentLang, t }: NavProps) {
           <div className="p-6">
             <button
               onClick={handleMenuClick}
-              className="w-full bg-gradient-to-r from-[#a8c8ff] to-white text-black px-5 py-3 rounded-lg text-lg font-semibold hover:from-[#7faaff] hover:to-[#e6f0ff] transition-all transform hover:scale-105 flex items-center justify-center space-x-3 shadow-md"
+              className="w-full bg-gradient-to-r from-[#a8c8ff] to-white text-black px-4 py-2.5 rounded-lg text-lg font-semibold hover:from-[#7faaff] hover:to-[#e6f0ff] transition-all transform hover:scale-105 flex items-center justify-center space-x-3 shadow-md"
             >
               <Download className="w-5 h-5" />
               <span>{t.nav.getStarted}</span>
