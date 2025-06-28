@@ -45,7 +45,7 @@ export default function Features({ t }: FeaturesS) {
         <div className="text-center mb-16">
           <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-700 rounded-full px-6 py-2 mb-6 text-sm font-medium ring-1 ring-blue-200">
             <Brain className="w-4 h-4" />
-            <span className="text-sm font-medium">Intelligence Artificielle</span>
+            <span className="text-sm font-medium">IA</span>
           </div>
 
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">

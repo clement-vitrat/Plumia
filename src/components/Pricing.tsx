@@ -47,7 +47,7 @@ export default function Pricing({ t }: PricingProps) {
             <div className="text-center mb-14">
                 <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-700 rounded-full px-6 py-2 mb-6 text-sm font-medium ring-1 ring-blue-200">
                     <CreditCard className="w-4 h-4" />
-                    <span>Pricing</span>
+                    <span>{t.nav.pricing}</span>
                 </div>
                 <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent">
                     {t.pricing.title}

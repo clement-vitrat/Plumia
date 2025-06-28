@@ -15,6 +15,16 @@ const translations = {
       downloadNow: "Télécharger Maintenant",
       watchDemo: "Documentation"
     },
+    validated: {
+      badge: "Validé par l'Éducation Nationale",
+      title: "Un outil approuvé pour l’apprentissage",
+      description:
+        "Testé par des centaines d'établissements scolaires, notre outil respecte les programmes de l’Éducation nationale et s’intègre parfaitement à l’environnement numérique éducatif.",
+      certTitle: "Certification officielle",
+      certDesc: "Ministère de l’Éducation nationale",
+      note: "Note d’évaluation",
+      committee: "Commission pédagogique indépendante",
+    },
     features: {
       title: "Fonctionnalités",
         titleHighlight: "Incroyables",  // <- à ajouter
@@ -133,10 +143,27 @@ const translations = {
       ]
     },
     testimonials: {
-      title: "Aimé par des",
-      titleHighlight: "Milliers",
-      description: "Rejoignez la communauté de professionnels qui ont transformé leur flux de travail avec Plumia.",
+      title: "Témoignages",
+      description: "Découvrez les témoignages de professeurs, de toutes les personnes qui utilisent Plumia au quotidien à travers la France.",
       items: [
+        {
+          name: "Sarah Chen",
+          role: "Chef de Produit",
+          company: "TechCorp",
+          content: "Plumia a complètement révolutionné la façon dont notre équipe collabore. Les fonctionnalités IA sont incroyablement intuitives."
+        },
+        {
+          name: "Marcus Johnson",
+          role: "Directeur Créatif",
+          company: "DesignStudio",
+          content: "La fonctionnalité multi-plateforme est parfaite. Je peux commencer le travail sur mon ordinateur portable et finir sur mon téléphone."
+        },
+        {
+          name: "Emma Rodriguez",
+          role: "Fondatrice de Startup",
+          company: "InnovateNow",
+          content: "Sécurité et performance combinées en un seul package. C'est exactement ce dont nous avions besoin pour notre équipe grandissante."
+        },
         {
           name: "Sarah Chen",
           role: "Chef de Produit",
@@ -156,6 +183,41 @@ const translations = {
           content: "Sécurité et performance combinées en un seul package. C'est exactement ce dont nous avions besoin pour notre équipe grandissante."
         }
       ]
+    },
+    contact: {
+      title: "Prêt à Transformer Votre Enseignement ?",
+      description: "Contactez notre équipe pour découvrir comment Plumia peut révolutionner l'apprentissage du français dans votre établissement.",
+      emailTitle: "Email Commercial",
+      emailDesc: "Pour toute demande d'information ou démonstration",
+      phoneTitle: "Téléphone",
+      phoneDesc: "Du lundi au vendredi, 9h-18h",
+      addressTitle: "Adresse",
+      addressDesc: "Nous vous accueillons sur rendez-vous à notre siège",
+      formTitle: "Demande d'information",
+      formLabels: {
+        prenom: "Prénom *",
+        nom: "Nom *",
+        email: "Email professionnel *",
+        etablissement: "Établissement *",
+        fonction: "Fonction *",
+        plan: "Choix du plan *",
+        message: "Message *"
+      },
+      planOptions: {
+        pilot: "Plan Pilote (99€/mois)",
+        etablissement: "Plan Établissement (299€/mois)",
+        academique: "Plan Académique"
+      },
+      fonctionOptions: {
+        enseignant: "Enseignant(e)",
+        directeur: "Directeur/Directrice",
+        respPedago: "Responsable pédagogique",
+        respInfo: "Responsable informatique",
+        autre: "Autre"
+      },
+      submitBtn: "Envoyer ma demande",
+      emailSubjectPrefix: "Demande Plumia",
+      emailBodyIntro: "Bonjour, je souhaite obtenir des informations sur le plan"
     },
     cta: {
       title: "Prêt à Transformer Votre Flux de Travail ?",
@@ -190,6 +252,16 @@ const translations = {
       description: "The application that accompanies all students in learning and perfecting writing, thanks to adapted artificial intelligence.",
       downloadNow: "Download Now",
       watchDemo: "Documentation"
+    },
+    validated: {
+      badge: "Approved by the Ministry of Education",
+      title: "A trusted learning tool",
+      description:
+        "Tested by hundreds of schools, our tool aligns with national education standards and integrates smoothly into the digital learning environment.",
+      certTitle: "Official certification",
+      certDesc: "Ministry of Education",
+      note: "Evaluation grade",
+      committee: "Independent pedagogical committee",
     },
     features: {
       title: "Features",
@@ -309,10 +381,27 @@ const translations = {
       ]
     },
     testimonials: {
-      title: "Loved by",
-      titleHighlight: "Thousands",
-      description: "Join the community of professionals who have transformed their workflow with Plumia.",
+      title: "Testimonials",
+      description: "Discover the testimonials of teachers, of all the people who use Plumia on a daily basis throughout France.",
       items: [
+        {
+          name: "Sarah Chen",
+          role: "Product Manager",
+          company: "TechCorp",
+          content: "Plumia has completely revolutionized how our team collaborates. The AI features are incredibly intuitive."
+        },
+        {
+          name: "Marcus Johnson",
+          role: "Creative Director",
+          company: "DesignStudio",
+          content: "The cross-platform functionality is seamless. I can start work on my laptop and finish on my phone."
+        },
+        {
+          name: "Emma Rodriguez",
+          role: "Startup Founder",
+          company: "InnovateNow",
+          content: "Security and performance combined in one package. This is exactly what we needed for our growing team."
+        },        
         {
           name: "Sarah Chen",
           role: "Product Manager",
@@ -332,6 +421,41 @@ const translations = {
           content: "Security and performance combined in one package. This is exactly what we needed for our growing team."
         }
       ]
+    },
+    contact: {
+      title: "Ready to Transform Your Teaching?",
+      description: "Contact our team to discover how Plumia can revolutionize French learning in your institution.",
+      emailTitle: "Commercial Email",
+      emailDesc: "For any information or demo request",
+      phoneTitle: "Phone",
+      phoneDesc: "Monday to Friday, 9am-6pm",
+      addressTitle: "Address",
+      addressDesc: "We welcome you by appointment at our headquarters",
+      formTitle: "Information Request",
+      formLabels: {
+        prenom: "First Name *",
+        nom: "Last Name *",
+        email: "Professional Email *",
+        etablissement: "Institution *",
+        fonction: "Role *",
+        plan: "Select a Plan *",
+        message: "Message *"
+      },
+      planOptions: {
+        pilot: "Pilot Plan (99€/month)",
+        etablissement: "Institution Plan (299€/month)",
+        academique: "Academic Plan"
+      },
+      fonctionOptions: {
+        enseignant: "Teacher",
+        directeur: "Director",
+        respPedago: "Educational Manager",
+        respInfo: "IT Manager",
+        autre: "Other"
+      },
+      submitBtn: "Send My Request",
+      emailSubjectPrefix: "Plumia Request",
+      emailBodyIntro: "Hello, I would like to get information about the plan"
     },
     cta: {
       title: "Ready to Transform Your Workflow?",
@@ -366,6 +490,16 @@ const translations = {
       description: "La aplicación que ayuda a todos los estudiantes a aprender y perfeccionar sus habilidades de escritura, gracias a la inteligencia artificial adaptada.",
       downloadNow: "Descargar Ahora",
       watchDemo: "Documentación"
+    },
+    validated: {
+      badge: "Aprobado por el Ministerio de Educación",
+      title: "Una herramienta de aprendizaje confiable",
+      description:
+        "Probada por cientos de escuelas, nuestra herramienta respeta los estándares educativos y se integra perfectamente en el entorno digital educativo.",
+      certTitle: "Certificación oficial",
+      certDesc: "Ministerio de Educación",
+      note: "Calificación de evaluación",
+      committee: "Comité pedagógico independiente",
     },
     features: {
       title: "Características",
@@ -485,10 +619,27 @@ const translations = {
       ]
     },
     testimonials: {
-      title: "Amado por",
-      titleHighlight: "Miles",
-      description: "Únete a la comunidad de profesionales que han transformado su flujo de trabajo con Plumia.",
+      title: "Reseñas",
+      description: "Descubra los testimonios de los profesores, de todas las personas que utilizan Plumia a diario en toda Francia.",
       items: [
+        {
+          name: "Sarah Chen",
+          role: "Gerente de Producto",
+          company: "TechCorp",
+          content: "Plumia ha revolucionado completamente cómo colabora nuestro equipo. Las características de IA son increíblemente intuitivas."
+        },
+        {
+          name: "Marcus Johnson",
+          role: "Director Creativo",
+          company: "DesignStudio",
+          content: "La funcionalidad multiplataforma es perfecta. Puedo comenzar el trabajo en mi laptop y terminarlo en mi teléfono."
+        },
+        {
+          name: "Emma Rodriguez",
+          role: "Fundadora de Startup",
+          company: "InnovateNow",
+          content: "Seguridad y rendimiento combinados en un paquete. Esto es exactamente lo que necesitábamos para nuestro equipo en crecimiento."
+        },
         {
           name: "Sarah Chen",
           role: "Gerente de Producto",
@@ -508,6 +659,41 @@ const translations = {
           content: "Seguridad y rendimiento combinados en un paquete. Esto es exactamente lo que necesitábamos para nuestro equipo en crecimiento."
         }
       ]
+    },
+    contact: {
+      title: "¿Listo para Transformar tu Enseñanza?",
+      description: "Contacta con nuestro equipo para descubrir cómo Plumia puede revolucionar el aprendizaje del francés en tu institución.",
+      emailTitle: "Email Comercial",
+      emailDesc: "Para cualquier solicitud de información o demostración",
+      phoneTitle: "Teléfono",
+      phoneDesc: "De lunes a viernes, 9am-6pm",
+      addressTitle: "Dirección",
+      addressDesc: "Te atendemos con cita previa en nuestra sede",
+      formTitle: "Solicitud de Información",
+      formLabels: {
+        prenom: "Nombre *",
+        nom: "Apellido *",
+        email: "Email profesional *",
+        etablissement: "Institución *",
+        fonction: "Función *",
+        plan: "Selecciona un plan *",
+        message: "Mensaje *"
+      },
+      planOptions: {
+        pilot: "Plan Piloto (99€/mes)",
+        etablissement: "Plan Institución (299€/mes)",
+        academique: "Plan Académico"
+      },
+      fonctionOptions: {
+        enseignant: "Profesor(a)",
+        directeur: "Director(a)",
+        respPedago: "Responsable pedagógico",
+        respInfo: "Responsable informática",
+        autre: "Otro"
+      },
+      submitBtn: "Enviar mi solicitud",
+      emailSubjectPrefix: "Solicitud Plumia",
+      emailBodyIntro: "Hola, quisiera obtener información sobre el plan"
     },
     cta: {
       title: "¿Listo para Transformar tu Flujo de Trabajo?",

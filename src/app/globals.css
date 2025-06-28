@@ -88,3 +88,25 @@ a, button, input, select, textarea {
   text-decoration: none !important;
 }
 
+/* Custom Swiper pagination styling */
+.swiper-pagination {
+  margin-top: 1.5rem !important;
+  text-align: center;
+  position: relative !important;
+  bottom: auto !important;
+}
+.swiper-pagination-bullet {
+  background: #0062ff !important;
+  opacity: 1;
+  width: 15px !important;
+  height: 10px !important;
+  border-radius: 5px !important;
+  margin: 0 6px !important;
+  transition: all 0.3s ease !important;
+}
+.swiper-pagination-bullet-active {
+  background: #3b82f6 !important;
+  width: 35px !important;
+  border-radius: 5px !important;
+}
+

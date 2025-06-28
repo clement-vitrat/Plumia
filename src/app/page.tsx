@@ -6,7 +6,9 @@ import { useState } from 'react';
 import NavBar from '@/components/Navbar';  
 import Hero from '@/components/Hero';
 import Features from '@/components/Features';
+import Validated from '@/components/Validated';
 import Demo from '@/components/Demo'; 
+import Reviews from '@/components/Reviews';
 import Pricing from '@/components/Pricing';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer'; 
@@ -34,12 +36,18 @@ export default function Home() {
       {/* Hero Section */}
       {/* Pass translation object to Hero component */}
       <Hero t={t} />
+      {/* Validated Section */}
+      {/* Pass translation object to Validated component */}
+      <Validated t={t} />
       {/* Features Section */}
       {/* Pass translation object to Features component */}
       <Features t={t} />
       {/* Demo Section */}
       {/* Pass translation object to Demo component */}
       <Demo t={t} />
+      {/* Reviews Section */}
+      {/* Pass translation object to Reviews component */}
+      <Reviews t={t} />
       {/* Pricing Section */}
       {/* Pass translation object to Pricing component */}
       <Pricing t={t} />
