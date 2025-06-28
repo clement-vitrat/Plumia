@@ -157,7 +157,7 @@ export default function NavBar({ currentLang, setCurrentLang, t }: NavProps) {
           </div>
           
           {/* Menu items */}
-          <div className="flex flex-col justify-center flex-1 px-6 py-4 space-y-2 overflow-hidden">
+          <div className="flex flex-col justify-center flex-1 px-6 py-3.5 space-y-1 overflow-hidden">
             {[
               { href: '#features', label: t.nav.features, icon: Zap },
               { href: '#demo', label: t.nav.howItWorks, icon: Users },
