@@ -19,7 +19,6 @@ type ReviewsS = {
   t: {
     testimonials: {
       title: string;
-      titleHighlight: string;
       description: string;
       items: Review[];
     };
@@ -47,7 +46,6 @@ export default function Reviews({ t }: ReviewsS) {
 
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             {t.testimonials.title}{' '}
-            <span className="text-blue-600">{t.testimonials.titleHighlight}</span>
           </h2>
 
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">

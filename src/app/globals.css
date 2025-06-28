@@ -87,6 +87,9 @@
 a, button, input, select, textarea {
   text-decoration: none !important;
 }
+ul {
+  padding-left: 0 !important;
+}
 
 /* Custom Swiper pagination styling */
 .swiper-pagination {

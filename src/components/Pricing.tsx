@@ -16,6 +16,9 @@ type Plan = {
 // Define the structure of the props for the Pricing component
 type PricingProps = {
   t: {
+    nav: {
+      pricing: string;
+    };
     pricing: {
       title: string;
       subtitle: string;

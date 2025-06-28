@@ -70,10 +70,10 @@ export default function NavBar({ currentLang, setCurrentLang, t }: NavProps) {
           
           {/* Desktop navigation links */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#features" className="text-black hover:text-blue-600 transition-colors">{t.nav.features}</a>
-            <a href="#demo"className="text-black hover:text-blue-600 transition-colors">{t.nav.howItWorks}</a>
-            <a href="#testimonials"className="text-black hover:text-blue-600 transition-colors">{t.nav.testimonials}</a>
-            <a href="#pricing" className="text-black hover:text-blue-600 transition-colors">{t.nav.pricing}</a>
+            <a href="#features" className="text-black hover:font-bold transition-colors">{t.nav.features}</a>
+            <a href="#demo"className="text-black hover:font-bold transition-colors">{t.nav.howItWorks}</a>
+            <a href="#testimonials"className="text-black hover:font-bold transition-colors">{t.nav.testimonials}</a>
+            <a href="#pricing" className="text-black hover:font-bold transition-colors">{t.nav.pricing}</a>
 
             <div className="relative">
               <button
@@ -157,7 +157,7 @@ export default function NavBar({ currentLang, setCurrentLang, t }: NavProps) {
           </div>
           
           {/* Menu items */}
-          <div className="flex flex-col justify-center flex-1 px-6 py-6 space-y-3 overflow-hidden">
+          <div className="flex flex-col justify-center flex-1 px-6 py-4 space-y-2 overflow-hidden">
             {[
               { href: '#features', label: t.nav.features, icon: Zap },
               { href: '#demo', label: t.nav.howItWorks, icon: Users },
@@ -196,7 +196,7 @@ export default function NavBar({ currentLang, setCurrentLang, t }: NavProps) {
                     setCurrentLang(lang.code);
                     setIsMenuOpen(false);
                   }}
-                  className={`flex items-center space-x-4 p-3 rounded-lg transition-all text-base shadow-sm ${
+                  className={`flex items-center space-x-4 p-2.5 rounded-lg transition-all text-base shadow-sm ${
                     currentLang === lang.code
                       ? 'bg-gradient-to-r from-[#a8c8ff] to-white text-black shadow-md'
                       : 'bg-gray-100 text-black hover:bg-gray-200 hover:shadow-md'
@@ -216,7 +216,7 @@ export default function NavBar({ currentLang, setCurrentLang, t }: NavProps) {
           <div className="p-6">
             <button
               onClick={handleMenuClick}
-              className="w-full bg-gradient-to-r from-[#a8c8ff] to-white text-black px-6 py-4 rounded-lg text-lg font-semibold hover:from-[#7faaff] hover:to-[#e6f0ff] transition-all transform hover:scale-105 flex items-center justify-center space-x-3 shadow-md"
+              className="w-full bg-gradient-to-r from-[#a8c8ff] to-white text-black px-5 py-3 rounded-lg text-lg font-semibold hover:from-[#7faaff] hover:to-[#e6f0ff] transition-all transform hover:scale-105 flex items-center justify-center space-x-3 shadow-md"
             >
               <Download className="w-5 h-5" />
               <span>{t.nav.getStarted}</span>

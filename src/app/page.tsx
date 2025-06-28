@@ -56,7 +56,7 @@ export default function Home() {
       <Contact t={t} />
       {/* Footer Section */}
       {/* Footer is not included in this example, but can be added here */}
-      {/*<Footer />*/}
+      <Footer t={{ nav: t.nav, footer: t.footer }} />
     </div>
   );
 }

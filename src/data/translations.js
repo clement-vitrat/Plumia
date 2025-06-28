@@ -13,7 +13,7 @@ const translations = {
       titleEnd: "progresse chaque jour",
       description: "L’application qui accompagne tous les élèves dans l’apprentissage et le perfectionnement de la rédaction, grâce à une intelligence artificielle adaptée.",
       downloadNow: "Télécharger Maintenant",
-      watchDemo: "Documentation"
+      documentation: "Documentation"
     },
     validated: {
       badge: "Validé par l'Éducation Nationale",
@@ -64,6 +64,30 @@ const translations = {
           description: "L'algorithme s'adapte au niveau de chaque élève pour personnaliser l'accompagnement."
         }
       ]
+    },
+    demo: {
+    badge: 'Compte à rebours | Démonstration',
+    title: 'Plumia version Bêta',
+    description: "Découvrez comment Plumia transforme l’apprentissage de l’écriture avec une correction intelligente, des explications pédagogiques et un retour pour progresser.",
+    countdown: ['Jours', 'Heures', 'Minutes', 'Secondes'],
+    steps: [
+      {
+        title: "Saisie du texte",
+        description: "L'élève écrit son texte naturellement",
+      },
+      {
+        title: "Détection des erreurs",
+        description: "L'IA identifie les erreurs d'orthographe et de grammaire",
+      },
+      {
+        title: "Suggestions contextuelles",
+        description: "Des corrections intelligentes sont proposées avec explications",
+      }
+    ],
+    play: "Lire",
+    pause: "Pause",
+    download: "Télécharger",
+    preview: "Aperçu de la correction",
     },
     pricing: {
       title: 'Nos offres',
@@ -120,25 +144,6 @@ const translations = {
             'API complète',
             'Hébergement dédié'
           ]
-        }
-      ]
-    },
-    howItWorks: {
-      title: "Étapes Simples vers le",
-      titleHighlight: "Succès",
-      description: "Commencez en quelques minutes avec notre processus d'intégration intuitif conçu pour les utilisateurs de tous niveaux.",
-      steps: [
-        {
-          title: "S'inscrire",
-          description: "Créez votre compte en quelques secondes avec notre processus d'inscription simplifié."
-        },
-        {
-          title: "Personnaliser",
-          description: "Adaptez l'expérience à vos besoins avec notre assistant de configuration intelligent."
-        },
-        {
-          title: "Transformer",
-          description: "Regardez votre productivité s'envoler alors que notre IA apprend et s'adapte à votre flux de travail."
         }
       ]
     },
@@ -219,16 +224,9 @@ const translations = {
       emailSubjectPrefix: "Demande Plumia",
       emailBodyIntro: "Bonjour, je souhaite obtenir des informations sur le plan"
     },
-    cta: {
-      title: "Prêt à Transformer Votre Flux de Travail ?",
-      description: "Rejoignez des milliers de professionnels qui ont déjà révolutionné leur productivité avec Plumia.",
-      startTrial: "Commencer l'Essai Gratuit",
-      scheduleDemo: "Planifier une Démo",
-      disclaimer: "Aucune carte de crédit requise • Essai gratuit de 14 jours • Annulez à tout moment"
-    },
     footer: {
-      description: "Transformer les flux de travail avec l'automatisation intelligente et la collaboration transparente.",
-      product: "Produit",
+      description: "Transformez votre écriture avec notre IA avancée qui détecte, corrige et améliore vos textes en temps réel avec un système de surlignage intelligent par couleurs.",
+      product: "Plumia",
       company: "Entreprise",
       support: "Support",
       copyright: "© 2025 Plumia. Tous droits réservés.",
@@ -251,7 +249,7 @@ const translations = {
       titleEnd: "progress every day",
       description: "The application that accompanies all students in learning and perfecting writing, thanks to adapted artificial intelligence.",
       downloadNow: "Download Now",
-      watchDemo: "Documentation"
+      documentation: "Documentation"
     },
     validated: {
       badge: "Approved by the Ministry of Education",
@@ -302,6 +300,30 @@ const translations = {
           description: "The algorithm adjusts to each student’s level for personalized support."
         }
       ]
+    },
+    demo: {
+      badge: 'Countdown | Demo',
+      title: 'Plumia Beta version',
+      description: "Discover how Plumia transforms writing skills with smart corrections, educational explanations, and helpful feedback.",
+      countdown: ['Days', 'Hours', 'Minutes', 'Seconds'],
+      steps: [
+        {
+          title: "Text input",
+          description: "The student writes their text naturally",
+        },
+        {
+          title: "Error detection",
+          description: "The AI identifies spelling and grammar mistakes",
+        },
+        {
+          title: "Contextual suggestions",
+          description: "Smart corrections are suggested with explanations",
+        }
+      ],
+      play: "Play",
+      pause: "Pause",
+      download: "Download",
+      preview: "Correction preview",
     },
     pricing: {
       title: 'Our Plans',
@@ -358,25 +380,6 @@ const translations = {
             'Full API access',
             'Dedicated hosting'
           ]
-        }
-      ]
-    },
-    howItWorks: {
-      title: "Simple Steps to",
-      titleHighlight: "Success",
-      description: "Get started in minutes with our intuitive onboarding process designed for users of all levels.",
-      steps: [
-        {
-          title: "Sign Up",
-          description: "Create your account in seconds with our streamlined registration process."
-        },
-        {
-          title: "Customize",
-          description: "Tailor the experience to your needs with our intelligent setup wizard."
-        },
-        {
-          title: "Transform",
-          description: "Watch your productivity soar as our AI learns and adapts to your workflow."
         }
       ]
     },
@@ -457,16 +460,9 @@ const translations = {
       emailSubjectPrefix: "Plumia Request",
       emailBodyIntro: "Hello, I would like to get information about the plan"
     },
-    cta: {
-      title: "Ready to Transform Your Workflow?",
-      description: "Join thousands of professionals who have already revolutionized their productivity with Plumia.",
-      startTrial: "Start Free Trial",
-      scheduleDemo: "Schedule Demo",
-      disclaimer: "No credit card required • 14-day free trial • Cancel anytime"
-    },
     footer: {
-      description: "Transforming workflows with intelligent automation and seamless collaboration.",
-      product: "Product",
+      description: "Transform your handwriting with our advanced AI that detects, corrects and improves your texts in real time with an intelligent color highlighting system.",
+      product: "Plumia",
       company: "Company",
       support: "Support",
       copyright: "© 2025 Plumia. All rights reserved.",
@@ -489,7 +485,7 @@ const translations = {
       titleEnd: "progresa cada día",
       description: "La aplicación que ayuda a todos los estudiantes a aprender y perfeccionar sus habilidades de escritura, gracias a la inteligencia artificial adaptada.",
       downloadNow: "Descargar Ahora",
-      watchDemo: "Documentación"
+      documentation: "Documentación"
     },
     validated: {
       badge: "Aprobado por el Ministerio de Educación",
@@ -540,6 +536,30 @@ const translations = {
           description: "El algoritmo se adapta al nivel de cada estudiante para ofrecer un acompañamiento personalizado."
         }
       ]
+    },
+    demo: {
+      badge: 'Cuenta regresiva | Demostración',
+      title: 'Versión beta de Plumia',
+      description: "Descubre cómo Plumia transforma el aprendizaje de la escritura con correcciones inteligentes, explicaciones educativas y retroalimentación útil.",
+      countdown: ['Días', 'Horas', 'Minutos', 'Segundos'],
+      steps: [
+        {
+          title: "Entrada de texto",
+          description: "El estudiante escribe su texto de forma natural",
+        },
+        {
+          title: "Detección de errores",
+          description: "La IA identifica errores ortográficos y gramaticales",
+        },
+        {
+          title: "Sugerencias contextuales",
+          description: "Se proponen correcciones inteligentes con explicaciones",
+        }
+      ],
+      play: "Reproducir",
+      pause: "Pausa",
+      download: "Descargar",
+      preview: "Vista previa de la corrección",
     },
     pricing: {
       title: 'Nuestras Ofertas',
@@ -596,25 +616,6 @@ const translations = {
             'Acceso completo a la API',
             'Alojamiento dedicado'
           ]
-        }
-      ]
-    },
-    howItWorks: {
-      title: "Pasos Simples al",
-      titleHighlight: "Éxito",
-      description: "Comienza en minutos con nuestro proceso de incorporación intuitivo diseñado para usuarios de todos los niveles.",
-      steps: [
-        {
-          title: "Registrarse",
-          description: "Crea tu cuenta en segundos con nuestro proceso de registro simplificado."
-        },
-        {
-          title: "Personalizar",
-          description: "Adapta la experiencia a tus necesidades con nuestro asistente de configuración inteligente."
-        },
-        {
-          title: "Transformar",
-          description: "Observa cómo tu productividad se dispara mientras nuestra IA aprende y se adapta a tu flujo de trabajo."
         }
       ]
     },
@@ -695,16 +696,9 @@ const translations = {
       emailSubjectPrefix: "Solicitud Plumia",
       emailBodyIntro: "Hola, quisiera obtener información sobre el plan"
     },
-    cta: {
-      title: "¿Listo para Transformar tu Flujo de Trabajo?",
-      description: "Únete a miles de profesionales que ya han revolucionado su productividad con Plumia.",
-      startTrial: "Comenzar Prueba Gratuita",
-      scheduleDemo: "Programar Demo",
-      disclaimer: "No se requiere tarjeta de crédito • Prueba gratuita de 14 días • Cancela en cualquier momento"
-    },
     footer: {
-      description: "Transformando flujos de trabajo con automatización inteligente y colaboración perfecta.",
-      product: "Producto",
+      description: "Transforma tu escritura con nuestra IA avanzada que detecta, corrige y mejora tus textos en tiempo real con un sistema inteligente de resaltado por colores.",
+      product: "Plumia",
       company: "Empresa",
       support: "Soporte",
       copyright: "© 2025 Plumia. Todos los derechos reservados.",

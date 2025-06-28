@@ -41,6 +41,28 @@ function HighlightedWord({ children, tooltip, colorClass }: { children: React.Re
   );
 }
 
+const handleDownloadDoc = () => {
+  const element = document.createElement('a');
+  const file = new Blob([`
+CORRECTIA - DOCUMENTATION TECHNIQUE
+===================================
+
+PRÉSENTATION GÉNÉRALE
+---------------------
+CorrectIA est une solution d'intelligence artificielle révolutionnaire dédiée à la correction automatique de textes en français...
+(🔁 insère ici tout le contenu de la documentation que tu veux distribuer)
+...
+© 2024 CorrectIA. Tous droits réservés.
+  `], { type: 'text/plain' });
+
+  element.href = URL.createObjectURL(file);
+  element.download = 'Plumia_Documentation_Technique.txt';
+  document.body.appendChild(element);
+  element.click();
+  document.body.removeChild(element);
+};
+
+
 
 /**
  * Hero component renders the main hero section of the landing page.
@@ -88,12 +110,14 @@ export default function Hero({ t }: { t: any }) {
             <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
           </button>
           
-          <button className="inline-flex items-center justify-center rounded-full border border-[#a8c8ff] px-6 py-3 text-[#2a2a2a] hover:bg-[#f5faff] hover:text-black transition-all text-sm font-semibold">
+          <button
+            onClick={handleDownloadDoc}
+            className="inline-flex items-center justify-center rounded-full border border-gray-300 px-6 py-3 text-gray-700 hover:bg-gray-100 transition-all text-sm font-semibold"
+          >
             <Play className="w-5 h-5 mr-2" />
-            {t.hero.watchDemo}
+            {t.hero.documentation}
           </button>
         </div>
-        
       </div>
 
 
